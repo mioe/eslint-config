@@ -1,6 +1,6 @@
 {
 	"name": "@mioe/eslint-config-vue",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
 	"main": "index.js",
 	"files": [

@@ -1,6 +1,6 @@
 {
 	"name": "@mioe/eslint-config",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
 	"main": "index.js",
 	"files": [
@@ -13,7 +13,7 @@
 		"eslint": ">=8"
 	},
 	"dependencies": {
-		"@mioe/eslint-config": "^0.0.2"
+		"@mioe/eslint-config": "^0.0.3"
 	},
 	"devDependencies": {
 		"eslint": "^8.11.0"
