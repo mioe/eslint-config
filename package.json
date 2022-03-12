@@ -1,8 +1,16 @@
 {
-  "name": "@mioe/eslint-config-monorepo",
-  "description": "ESLint config",
-  "author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+	"name": "@mioe/eslint-config-monorepo",
+	"description": "ESLint config",
+	"private": true,
+	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
+	"engines": {
+		"node": ">=16",
+		"pnpm": ">=6"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"eslint": "^8.11.0"
+	}
 }
