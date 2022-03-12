@@ -1,5 +1,5 @@
 {
-	"name": "@mioe/eslint-config-base",
+	"name": "@mioe/eslint-config",
 	"version": "0.0.1",
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
 	"main": "index.js",

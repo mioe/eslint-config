@@ -8,9 +8,12 @@
 		"pnpm": ">=6"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"preinstall": "npx only-allow pnpm",
+		"lint": "eslint .",
+		"release": "lerna publish --conventional-commits"
 	},
 	"devDependencies": {
+		"@mioe/eslint-config": "*",
 		"eslint": "^8.11.0",
 		"lerna": "^4.0.0",
 		"typescript": "^4.6.2"
