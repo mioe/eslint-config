@@ -16,10 +16,18 @@ importers:
 
   packages/all:
     specifiers:
-      '@mioe/eslint-config': ^0.0.2
+      '@mioe/eslint-config': ^0.0.3
+      '@mioe/eslint-config-vue': workspace:^0.0.3
+      '@typescript-eslint/eslint-plugin': ^5.14.0
+      '@typescript-eslint/parser': ^5.14.0
       eslint: ^8.11.0
+      eslint-plugin-vue: ^8.5.0
     dependencies:
       '@mioe/eslint-config': 'link:'
+      '@mioe/eslint-config-vue': link:../vue
+      '@typescript-eslint/eslint-plugin': 5.14.0_ace6f9e7722b813e21eaf2dc993bc413
+      '@typescript-eslint/parser': 5.14.0_eslint@8.11.0+typescript@4.6.2
+      eslint-plugin-vue: 8.5.0_eslint@8.11.0
     devDependencies:
       eslint: 8.11.0
 
@@ -31,7 +39,7 @@ importers:
 
   packages/ts:
     specifiers:
-      '@mioe/eslint-config-base': ^0.0.2
+      '@mioe/eslint-config-base': ^0.0.3
       '@typescript-eslint/eslint-plugin': ^5.14.0
       '@typescript-eslint/parser': ^5.14.0
       eslint: ^8.11.0
@@ -44,9 +52,11 @@ importers:
 
   packages/vue:
     specifiers:
+      '@mioe/eslint-config-ts': workspace:^0.0.3
       eslint: ^8.11.0
       eslint-plugin-vue: ^8.5.0
     dependencies:
+      '@mioe/eslint-config-ts': link:../ts
       eslint-plugin-vue: 8.5.0_eslint@8.11.0
     devDependencies:
       eslint: 8.11.0

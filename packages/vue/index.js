@@ -21,12 +21,12 @@ module.exports = {
 		'vue/multi-word-component-names': 'off',
 		'vue/require-default-prop': 'off',
 		'vue/require-prop-types': 'off',
-		"vue/html-indent": ['error', 'tab', {
+		'vue/html-indent': ['error', 'tab', {
 			'attribute': 1,
 			'baseIndent': 1,
 			'closeBracket': 0,
 			'alignAttributesVertically': true,
-			'ignores': []
-		}]
+			'ignores': [],
+		}],
 	},
 }
