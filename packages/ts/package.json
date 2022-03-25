@@ -1,6 +1,6 @@
 {
 	"name": "@mioe/eslint-config-ts",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
 	"main": "index.js",
 	"files": [
@@ -13,7 +13,7 @@
 		"eslint": ">=8"
 	},
 	"dependencies": {
-		"@mioe/eslint-config-base": "^0.0.4",
+		"@mioe/eslint-config-base": "^0.0.5",
 		"@typescript-eslint/eslint-plugin": "^5.14.0",
 		"@typescript-eslint/parser": "^5.14.0"
 	},
