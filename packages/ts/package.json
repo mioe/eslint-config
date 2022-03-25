@@ -10,8 +10,7 @@
 		"lint": "eslint . --config=index.js"
 	},
 	"peerDependencies": {
-		"eslint": ">=8",
-		"typescript": ">=4"
+		"eslint": ">=8"
 	},
 	"dependencies": {
 		"@mioe/eslint-config-base": "^0.0.4",
@@ -19,7 +18,8 @@
 		"@typescript-eslint/parser": "^5.14.0"
 	},
 	"devDependencies": {
-		"eslint": "^8.11.0"
+		"eslint": "^8.11.0",
+		"typescript": "^4.6.2"
 	},
 	"publishConfig": {
 		"access": "public"
