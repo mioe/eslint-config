@@ -13,7 +13,6 @@
 		"eslint": ">=8"
 	},
 	"dependencies": {
-		"@mioe/eslint-config": "^0.0.5",
 		"@mioe/eslint-config-vue": "^0.0.5",
 		"@typescript-eslint/eslint-plugin": "^5.14.0",
 		"@typescript-eslint/parser": "^5.14.0",
