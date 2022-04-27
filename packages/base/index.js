@@ -30,6 +30,7 @@ module.exports = {
 	],
 	rules: {
 		'comma-dangle': ['error', 'always-multiline'],
+		'indent': ['error', 'tab'],
 		'quotes': ['error', 'single'],
 		'semi': ['error', 'never'],
 		'space-before-function-paren': ['error', 'never'],
