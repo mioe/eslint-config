@@ -1,6 +1,6 @@
 {
 	"name": "@mioe/eslint-config-base",
-	"version": "0.0.7",
+	"version": "0.1.0",
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
 	"main": "index.js",
 	"files": [
