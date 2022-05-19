@@ -1,15 +1,17 @@
 
 module.exports = {
 	env: {
-		es6: true,
 		browser: true,
 		node: true,
+		es6: true,
+		es2021: true,
 	},
 	extends: [
 		'eslint:recommended',
 	],
 	parserOptions: {
 		ecmaVersion: 2022,
+		sourceType: 'module',
 	},
 	ignorePatterns: [
 		'*.min.*',
