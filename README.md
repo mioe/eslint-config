@@ -12,10 +12,6 @@ pnpm add -D eslint @mioe/eslint-config
 {
 	"extends": "@mioe"
 }
-
-@mioe/eslint-config-base
-@mioe/eslint-config-ts
-@mioe/eslint-config-vue
 ```
 
 ### Add script for package.json
