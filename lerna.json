@@ -1,7 +1,5 @@
 {
-	"packages": [
-		"packages/*"
-	],
+	"useWorkspaces": true,
 	"changelog": {
 		"labels": {
 			"up": "Update",

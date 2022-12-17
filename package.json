@@ -3,6 +3,7 @@
 	"description": "ESLint config",
 	"private": true,
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
+	"workspaces": ["packages/*"],
 	"engines": {
 		"node": ">=18",
 		"pnpm": ">=7"
