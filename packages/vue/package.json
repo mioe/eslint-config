@@ -1,6 +1,6 @@
 {
 	"name": "@mioe/eslint-config-vue",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
 	"main": "index.js",
 	"files": [
@@ -13,7 +13,7 @@
 		"eslint": ">=8"
 	},
 	"dependencies": {
-		"@mioe/eslint-config-ts": "workspace:^0.1.1",
+		"@mioe/eslint-config-ts": "workspace:^0.1.2",
 		"eslint-plugin-vue": "^9.8.0"
 	},
 	"devDependencies": {
