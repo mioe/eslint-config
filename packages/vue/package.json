@@ -13,11 +13,11 @@
 		"eslint": ">=8"
 	},
 	"dependencies": {
-		"@mioe/eslint-config-ts": "^0.1.1",
-		"eslint-plugin-vue": "^8.5.0"
+		"@mioe/eslint-config-ts": "workspace:^0.1.1",
+		"eslint-plugin-vue": "^9.8.0"
 	},
 	"devDependencies": {
-		"eslint": "^8.11.0"
+		"eslint": "^8.30.0"
 	},
 	"publishConfig": {
 		"access": "public"

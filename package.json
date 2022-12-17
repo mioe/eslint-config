@@ -4,8 +4,8 @@
 	"private": true,
 	"author": "mioe <mioe.galaxy@gmail.com> (https://github.com/mioe/)",
 	"engines": {
-		"node": ">=16",
-		"pnpm": ">=6"
+		"node": ">=18",
+		"pnpm": ">=7"
 	},
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
@@ -14,8 +14,8 @@
 	},
 	"devDependencies": {
 		"@mioe/eslint-config": "workspace:*",
-		"eslint": "^8.15.0",
-		"lerna": "^4.0.0",
-		"typescript": "^4.6.4"
+		"eslint": "^8.30.0",
+		"lerna": "^6.1.0",
+		"typescript": "^4.9.4"
 	}
 }
